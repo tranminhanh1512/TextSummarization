@@ -34,3 +34,4 @@
 [2025-06-24 17:15:23,316: INFO: common: created directory at: artifacts]
 [2025-06-24 17:15:23,316: INFO: common: created directory at: artifacts/data_transformation]
 [2025-06-24 17:15:25,322: INFO: main: Stage Data Transformation Stage completed]
+[2025-06-24 17:59:10,901: INFO: config: PyTorch version 2.6.0 available.]
