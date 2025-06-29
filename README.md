@@ -1,5 +1,5 @@
 # TextSummarizer Using HuggingFace
-This project implements a complete text summarization pipeline using Hugging Face's Transformers, designed for modularity, scalability, and ease of deployment. The system is trained to generate concise and accurate summaries from dialogues or text passages, leveraging state-of-the-art transformer models like Pegasus, fine-tuned on the SAMSum dataset. The architecture includes all key ML pipeline stages—data ingestion, transformation, training, evaluation, and inference—exposed via a user-friendly FastAPI interface. The project is also containerized using Docker and integrated with GitHub Actions to support Continuous Integration and Continuous Delivery (CI/CD).
+This project implements a complete text summarization pipeline using Hugging Face's Transformers, designed for modularity, scalability, and ease of deployment. The system fine-tunes the Pegasus model on the SAMSum dataset to generate concise and accurate summaries from dialogues and conversational text. The architecture includes all key ML pipeline stages—data ingestion, transformation, training, evaluation, and inference—exposed via a user-friendly FastAPI interface. The project is containerized using Docker and integrated with GitHub Actions to support Continuous Integration and Continuous Delivery (CI/CD).
 
 ## Workflows
 
@@ -106,7 +106,7 @@ AWS_SECRET_ACCESS_KEY = your_access_key
 AWS_REGION = your_region
 ECR_REPOSITORY_NAME = your_ecr_repo_name
 ```
-### 8.  Push Code to GitHub
+### 5.  Push Code to GitHub
 
 ## Key Components
 ### 1. Data Ingestion
